@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/opt/utils/zbxora/bin/zbxora.py", line 79, in <module>
+    raise ValueError("Configfile " + OPTIONS.configfile + " does not exist")
+ValueError: Configfile zbxora.cfg does not exist
+Traceback (most recent call last):
+  File "/opt/utils/zbxora/bin/zbxora.py", line 79, in <module>
+    raise ValueError("Configfile " + OPTIONS.configfile + " does not exist")
+ValueError: Configfile zbxora.cfg does not exist

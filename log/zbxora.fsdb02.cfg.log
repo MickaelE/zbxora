@@ -1,0 +1,21 @@
+2016-06-15 15:07:25 start zbxora-1.01 pid=2975 Connecting for hostname testhost...
+2016-06-15 15:07:25.017590 site_checks: sap,ebs
+2016-06-15 15:07:25.017613 to_zabbix_method: NOzabbix_sender zabbix_sender -z 127.0.0.1 -T -i /home/bluegecko/zbxora_out/zbxora.fsdb02.zbx
+2016-06-15 15:07:25.017632 out_file:/home/bluegecko/zbxora_out/zbxora.fsdb02.zbx
+2016-06-15 15:07:27.041845: (1.1)connection error: ORA-12541: TNS:no listener for cistats@//localhost:15214/fsdb02
+2016-06-15 15:07:28.046760: (2.1)connection error: ORA-12541: TNS:no listener for cistats@//localhost:15214/fsdb02
+2016-06-15 15:07:29.051259: (3.1)connection error: ORA-12541: TNS:no listener for cistats@//localhost:15214/fsdb02
+2016-06-15 15:07:30.055904: (4.1)connection error: ORA-12541: TNS:no listener for cistats@//localhost:15214/fsdb02
+2016-06-15 15:07:31.060408: (5.1)connection error: ORA-12541: TNS:no listener for cistats@//localhost:15214/fsdb02
+2016-06-15 15:07:32.065760: (6.1)connection error: ORA-12541: TNS:no listener for cistats@//localhost:15214/fsdb02
+2016-06-15 15:07:33.071899: (7.1)connection error: ORA-12541: TNS:no listener for cistats@//localhost:15214/fsdb02
+2016-06-15 15:07:34.078494: (8.1)connection error: ORA-12541: TNS:no listener for cistats@//localhost:15214/fsdb02
+2016-06-15 15:07:35.082968: (9.1)connection error: ORA-12541: TNS:no listener for cistats@//localhost:15214/fsdb02
+2016-06-15 15:07:36.088587: (0.11)connection error: ORA-12541: TNS:no listener for cistats@//localhost:15214/fsdb02
+2016-06-15 15:07:47.104234: (1.11)connection error: ORA-12541: TNS:no listener for cistats@//localhost:15214/fsdb02
+2016-06-15 15:07:58.117878: (2.11)connection error: ORA-12541: TNS:no listener for cistats@//localhost:15214/fsdb02
+2016-06-15 15:08:09.131122: (3.11)connection error: ORA-12541: TNS:no listener for cistats@//localhost:15214/fsdb02
+Traceback (most recent call last):
+  File "/opt/utils/zbxora/bin/zbxora.py", line 131, in <module>
+    INIF = open(OPTIONS.configfile, 'r')
+IOError: [Errno 2] No such file or directory: 'etc/zbxora.fsdb02.cfg'
